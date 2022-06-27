@@ -4,7 +4,7 @@
   "dependencies": {
     "astn-handlers-api": "^0.5.0",
     "astn-ide-api": "^0.1.1",
-    "astn-serializer-api": "^0.6.0",
+    "astn-serializer-api": "^0.6.1",
     "pareto-runtime": "^0.22.0"
   },
   "files": [
