@@ -2,7 +2,7 @@
   "author": "Corno",
   "bin": {},
   "dependencies": {
-    "astn-handlers-api": "^0.4.0",
+    "astn-handlers-api": "^0.5.0",
     "astn-ide-api": "^0.1.1",
     "astn-serializer-api": "^0.6.0",
     "pareto-runtime": "^0.22.0"
