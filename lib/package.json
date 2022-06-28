@@ -24,6 +24,6 @@
     "url": "git+https://github.com/corno/astn-serializer.git"
   },
   "types": "dist/index.d.ts",
-  "version": "0.5.2",
+  "version": "0.5.3",
   "content-fingerprint": "a9ec15daf59fa8049700dc5d307af82c2e99fd21"
 }
