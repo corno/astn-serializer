@@ -2,8 +2,7 @@
   "author": "Corno",
   "bin": {},
   "dependencies": {
-    "astn-handlers-api": "^0.5.0",
-    "pareto-runtime": "^0.22.0"
+    "astn-handlers-api": "^0.5.1"
   },
   "files": [
     "dist",
@@ -23,5 +22,6 @@
     "url": "git+https://github.com/corno/astn-serializer.git"
   },
   "types": "dist/index.d.ts",
-  "version": "0.6.2"
+  "version": "0.6.2",
+  "content-fingerprint": "01ef09c13241dfb8e762fc20784c02b50a41f272"
 }
