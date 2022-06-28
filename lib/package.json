@@ -3,7 +3,7 @@
   "bin": {},
   "dependencies": {
     "astn-handlers-api": "^0.5.1",
-    "astn-serializer-api": "^0.6.2",
+    "astn-serializer-api": "^0.6.3",
     "pareto-runtime": "^0.22.0"
   },
   "files": [
@@ -25,5 +25,5 @@
   },
   "types": "dist/index.d.ts",
   "version": "0.5.2",
-  "content-fingerprint": "0086f216938938e74635a6a08fe8fd5baaf7ad98"
+  "content-fingerprint": "a9ec15daf59fa8049700dc5d307af82c2e99fd21"
 }
