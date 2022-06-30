@@ -1,4 +1,4 @@
-import * as pr from "pareto-runtime"
+import * as pl from "pareto-lang-lib"
 
 import * as th from "astn-handlers-api"
 
@@ -37,7 +37,7 @@ export function createAnnotater<InTokenAnnotation>(
                         break
                     }
                     default:
-                        pr.au($.token.token.type[0])
+                        pl.au($.token.token.type[0])
                 }
                 handler.objectBegin({
                     token: $.token,
@@ -67,7 +67,7 @@ export function createAnnotater<InTokenAnnotation>(
                                 break
                             }
                             default:
-                                pr.au($.token.token.type[0])
+                                pl.au($.token.token.type[0])
                         }
                         handler.objectEnd({
                             openToken: $.token,
@@ -89,7 +89,7 @@ export function createAnnotater<InTokenAnnotation>(
                         break
                     }
                     default:
-                        pr.au($.token.token.type[0])
+                        pl.au($.token.token.type[0])
                 }handler.arrayBegin({
                     token: $.token,
                     stackContext: createStackContext(),
@@ -117,7 +117,7 @@ export function createAnnotater<InTokenAnnotation>(
                                 break
                             }
                             default:
-                                pr.au($.token.token.type[0])
+                                pl.au($.token.token.type[0])
                         }
                         handler.arrayEnd({
                             openToken: $.token,

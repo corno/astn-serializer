@@ -1,4 +1,4 @@
-import * as pr from "pareto-runtime"
+import * as pl from "pareto-lang-lib"
 
 import * as stringSerialization from "./stringSerialization"
 
@@ -48,7 +48,7 @@ export function createASTNNormalizer<EventAnnotation>(
                                 return stringSerialization.createSerializedQuotedString($.propertyToken.token.value)
                             }
                             default:
-                                return pr.au($.objectToken.token.type[0])
+                                return pl.au($.objectToken.token.type[0])
                         }
                     })(),
                     stringAfter: `: `,
@@ -116,7 +116,7 @@ export function createASTNNormalizer<EventAnnotation>(
                         return stringSerialization.createSerializedApostrophedString($.value)
                     }
                     default:
-                        return pr.au($.wrapping[0])
+                        return pl.au($.wrapping[0])
                 }
             }
             $p.writer.token(

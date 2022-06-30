@@ -1,4 +1,4 @@
-import * as pr from "pareto-runtime"
+import * as pl from "pareto-lang-lib"
 
 
 import * as grammar from "astn-serializer-api"
@@ -102,7 +102,7 @@ export function createJSONFormatter<EventAnnotation>(
                                 return createSerializedQuotedString($.token.token.value)
                             }
                             default:
-                                return pr.au($.token.token.wrapping[0])
+                                return pl.au($.token.token.wrapping[0])
                         }
                     })(),
                     stringAfter: ``,
